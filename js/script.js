@@ -13,7 +13,7 @@ var accessToken;
 
 		},
 		success: function(DataFromJSON){
-			console.log(DataFromJSON.AccessToken);
+			// console.log(DataFromJSON.AccessToken);
 			accessToken = DataFromJSON.AccessToken;
 			getData();
 
